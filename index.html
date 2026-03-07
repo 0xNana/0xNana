@@ -751,14 +751,16 @@
   });
 
   const projects = [
-    { tag: "Company", name: "Seismic Labs Website", desc: "Company site for Seismic Labs.", href: "https://github.com/0xNana/seismiclabs", cta: "Open ->" },
-    { tag: "Product", name: "Al-Bannazir", desc: "Next.js app with custom components and static export.", href: "https://github.com/0xNana/al-bannazir", cta: "Open ->" },
-    { tag: "Market Intel", name: "Vector", desc: "Perps trading app, API, and CLI.", href: "https://github.com/0xNana/vector", cta: "Open ->" },
-    { tag: "Confidential Payroll", name: "cPay", desc: "Onchain payroll app for encrypted payments.", href: "https://github.com/0xNana/cPay", cta: "Open ->" },
-    { tag: "Confidential Donations", name: "Covalent", desc: "Encrypted donation platform.", href: "https://github.com/0xNana/covalent", cta: "Open ->" },
-    { tag: "Logistics", name: "Fastlane", desc: "Logistics OS monorepo with multiple apps.", href: "https://github.com/0xNana/fastlane", cta: "Open ->" },
-    { tag: "Learning", name: "FHEVM Bootcamp", desc: "Bootcamp for building with FHEVM.", href: "https://github.com/0xNana/fhevm-bootcamp", cta: "Open ->" },
-    { tag: "Monitoring", name: "Rise Monitor", desc: "Monitoring dashboard and indexer project.", href: "https://github.com/0xNana/rise-monitor", cta: "Open ->" },
+    { tag: "Platform", name: "Vecta", desc: "Perps trading intelligence platform with app, API, and CLI.", href: "https://github.com/0xNana/vector", cta: "Open ->" },
+    { tag: "Platform", name: "Fastlane", desc: "Logistics OS with admin, partners, agents, and tracking apps.", href: "https://github.com/0xNana/fastlane", cta: "Open ->" },
+    { tag: "Product", name: "AttendAI", desc: "AI-native university attendance system with geofence and analytics modules.", cta: "Local ->" },
+    { tag: "Product", name: "Meridian", desc: "Product build in progress focused on execution and internal design direction.", cta: "Local ->" },
+    { tag: "Product", name: "Al-Bannazir", desc: "Next.js application with custom components and static export flow.", href: "https://github.com/0xNana/al-bannazir", cta: "Open ->" },
+    { tag: "Infra", name: "cPay", desc: "Onchain payroll app for privacy-preserving payments.", href: "https://github.com/0xNana/cPay", cta: "Open ->" },
+    { tag: "Infra", name: "Covalent", desc: "Encrypted donation platform and confidential fund flow infrastructure.", href: "https://github.com/0xNana/covalent", cta: "Open ->" },
+    { tag: "Infra", name: "Rise Monitor", desc: "Monitoring dashboard and indexer stack for blockchain operations.", href: "https://github.com/0xNana/rise-monitor", cta: "Open ->" },
+    { tag: "Learning", name: "FHEVM Bootcamp", desc: "Hands-on bootcamp for shipping with FHEVM.", href: "https://github.com/0xNana/fhevm-bootcamp", cta: "Open ->" },
+    { tag: "Company", name: "Seismic Labs Website", desc: "Company website and positioning platform for Seismic Labs.", href: "https://github.com/0xNana/seismiclabs", cta: "Open ->" },
     { tag: "Web Platform", name: "AID Ghana Website", desc: "Website for African Initiative for Development.", href: "https://github.com/0xNana/kenneth", cta: "Open ->" }
   ];
 
@@ -768,7 +770,7 @@
       <p class="project-tag">${project.tag}</p>
       <h3 class="project-name">${project.name}</h3>
       <p class="project-desc">${project.desc}</p>
-      <a href="${project.href}" target="_blank" rel="noreferrer" class="project-link">${project.cta}</a>
+      ${project.href ? `<a href="${project.href}" target="_blank" rel="noreferrer" class="project-link">${project.cta}</a>` : `<span class="project-link">${project.cta}</span>`}
     </article>
   `).join('');
 
