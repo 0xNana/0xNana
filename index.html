@@ -349,12 +349,15 @@
     }
 
     #contact {
-      background: var(--ink);
+      background:
+        radial-gradient(120% 100% at 100% 0%, rgba(200,184,154,0.14) 0%, rgba(200,184,154,0) 45%),
+        linear-gradient(180deg, #151515 0%, #090909 100%);
       color: var(--white);
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 6rem;
       align-items: start;
+      border-top: 1px solid rgba(255,255,255,0.12);
     }
 
     #contact .section-label { color: var(--accent); }
@@ -536,7 +539,7 @@
   </div>
 </section>
 
-<section id="contact">
+<footer id="contact">
   <div class="reveal">
     <p class="section-label">Contact</p>
     <h2 class="section-title">Reach me directly.</h2>
@@ -554,7 +557,7 @@
       <li><span class="contact-handle">Discord: 0xelegant</span></li>
     </ul>
   </div>
-</section>
+</footer>
 
 <script>
   const projects = [
