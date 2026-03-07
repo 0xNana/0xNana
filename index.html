@@ -353,46 +353,69 @@
         radial-gradient(120% 100% at 100% 0%, rgba(200,184,154,0.14) 0%, rgba(200,184,154,0) 45%),
         linear-gradient(180deg, #151515 0%, #090909 100%);
       color: var(--white);
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 6rem;
-      align-items: start;
+      text-align: center;
       border-top: 1px solid rgba(255,255,255,0.12);
+      padding: 8rem 3rem;
     }
 
     #contact .section-label { color: var(--accent); }
     #contact .section-title { color: var(--white); }
     #contact .section-intro { color: rgba(255,255,255,0.5); }
 
-    .contact-list {
-      list-style: none;
-      display: grid;
-      gap: 0.75rem;
-      margin: 0;
-      padding: 0;
+    #contact h2 {
+      font-size: clamp(2.5rem, 6vw, 5.5rem);
+      margin-bottom: 1.5rem;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-    .contact-list a {
+    .contact-sub {
+      font-size: 1rem;
+      color: rgba(255,255,255,0.68);
+      max-width: 460px;
+      margin: 0 auto 3rem;
+      font-weight: 300;
+    }
+
+    .contact-email {
+      display: inline-block;
+      font-family: var(--mono);
+      font-size: 1.1rem;
       color: var(--white);
       text-decoration: none;
-      border-bottom: 1px solid rgba(255,255,255,0.2);
-      padding-bottom: 0.25rem;
+      border-bottom: 1.5px solid rgba(255,255,255,0.75);
+      padding-bottom: 2px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .contact-email:hover { color: var(--accent); border-color: var(--accent); }
+
+    .contact-socials {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+    .social-link {
       font-family: var(--mono);
-      font-size: 0.8rem;
-      letter-spacing: 0.05em;
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: rgba(255,255,255,0.72);
+      transition: color 0.2s;
+    }
+    .social-handle {
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.72);
     }
 
-    .contact-handle {
-      display: inline-block;
-      color: var(--white);
-      border-bottom: 1px solid rgba(255,255,255,0.2);
-      padding-bottom: 0.25rem;
-      font-family: var(--mono);
-      font-size: 0.8rem;
-      letter-spacing: 0.05em;
-    }
-
-    .contact-list a:hover { border-color: rgba(255,255,255,0.65); }
+    .social-link:hover { color: var(--white); }
 
 
     @keyframes fadeUp {
@@ -433,7 +456,8 @@
       section { padding: 5rem 2rem; }
       hr.divider { margin: 0 2rem; }
       .projects-grid { grid-template-columns: 1fr; }
-      #about, #contact { grid-template-columns: 1fr; gap: 3rem; }
+      #about { grid-template-columns: 1fr; gap: 3rem; }
+      #contact { padding: 6rem 1.5rem; }
       .about-stat-row { gap: 2rem; }
     }
   </style>
@@ -540,22 +564,16 @@
 </section>
 
 <footer id="contact">
-  <div class="reveal">
-    <p class="section-label">Contact</p>
-    <h2 class="section-title">Reach me directly.</h2>
-    <p class="section-intro">
-      For builds, partnerships, or high execution work: email first, then we can sync on Telegram/Discord.
-    </p>
-  </div>
-  <div class="reveal">
-    <ul class="contact-list">
-      <li><a href="mailto:dariesdoteth@gmail.com">Email: dariesdoteth@gmail.com</a></li>
-      <li><a href="https://github.com/0xNana" target="_blank" rel="noreferrer">GitHub: 0xNana</a></li>
-      <li><a href="https://t.me/Elegant_CF" target="_blank" rel="noreferrer">Telegram: Elegant_CF</a></li>
-      <li><a href="https://x.com/0xelegant" target="_blank" rel="noreferrer">X: 0xelegant</a></li>
-      <li><a href="https://x.com/ghbuilda" target="_blank" rel="noreferrer">X: ghbuilda</a></li>
-      <li><span class="contact-handle">Discord: 0xelegant</span></li>
-    </ul>
+  <p class="section-label reveal" style="justify-content:center;">Contact</p>
+  <h2 class="section-title reveal">Reach me directly.</h2>
+  <p class="contact-sub reveal">For builds, partnerships, or high execution work.</p>
+  <a href="mailto:dariesdoteth@gmail.com" class="contact-email reveal">dariesdoteth@gmail.com</a>
+  <div class="contact-socials reveal">
+    <a href="https://github.com/0xNana" target="_blank" rel="noreferrer" class="social-link">GitHub</a>
+    <a href="https://t.me/Elegant_CF" target="_blank" rel="noreferrer" class="social-link">Telegram</a>
+    <a href="https://x.com/0xelegant" target="_blank" rel="noreferrer" class="social-link">X / 0xelegant</a>
+    <a href="https://x.com/ghbuilda" target="_blank" rel="noreferrer" class="social-link">X / ghbuilda</a>
+    <span class="social-handle">Discord / 0xelegant</span>
   </div>
 </footer>
 
