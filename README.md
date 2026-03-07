@@ -10,7 +10,7 @@ Systems-focused engineer with deep ecosystem and crypto experience.
 
 Solidity, Rust, and full-stack product execution across distributed systems, blockchain infrastructure, and AI systems.
 
-Onchain builder focused on CS, privacy, stablecoins, CLOB, and PayFi.
+Onchain builder focused on privacy-preserving systems, stablecoins, CLOBs, and PayFi.
 
 CS student at SouthShore University College.
 
