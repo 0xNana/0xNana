@@ -16,9 +16,9 @@ CS student at SouthShore University College.
 
 ## Stack
 
-- Frameworks: Next.js, React, Node.js, Foundry, Hardhat, FHEVM
-- Languages: TypeScript, JavaScript, Solidity, Rust, SQL
-- Tools: Docker, Git, PostgreSQL, Supabase, Railway, Fly.io, Vercel, Netlify, Linux
+- Frameworks: [Next.js](https://nextjs.org), [React](https://react.dev), [Node.js](https://nodejs.org), [Foundry](https://book.getfoundry.sh), [Hardhat](https://hardhat.org), [FHEVM](https://docs.zama.ai/fhevm)
+- Languages: [TypeScript](https://www.typescriptlang.org), [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript), [Solidity](https://soliditylang.org), [Rust](https://www.rust-lang.org), [SQL](https://www.postgresql.org/docs/current/sql.html)
+- Tools: [Docker](https://www.docker.com), [Git](https://git-scm.com), [PostgreSQL](https://www.postgresql.org), [Supabase](https://supabase.com), [Railway](https://railway.com), [Fly.io](https://fly.io), [Vercel](https://vercel.com), [Netlify](https://www.netlify.com), [Linux](https://kernel.org)
 
 ## Links
 
