@@ -34,6 +34,19 @@
       overflow-x: hidden;
     }
 
+    .cursor {
+      width: 8px; height: 8px;
+      background: var(--accent);
+      border-radius: 50%;
+      position: fixed;
+      top: 0; left: 0;
+      pointer-events: none;
+      z-index: 9999;
+      transition: transform 0.15s ease;
+      mix-blend-mode: multiply;
+    }
+    .cursor.expand { transform: scale(5); }
+
     nav {
       position: fixed;
       top: 0; left: 0; right: 0;
@@ -503,6 +516,7 @@
   </style>
 </head>
 <body>
+<div class="cursor" id="cursor"></div>
 
 <nav>
   <a href="#hero" class="nav-logo">gh<span>builder</span>.dev</a>
@@ -659,6 +673,16 @@
 </footer>
 
 <script>
+  const cursor = document.getElementById('cursor');
+  document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+  });
+  document.querySelectorAll('a, button').forEach((el) => {
+    el.addEventListener('mouseenter', () => cursor.classList.add('expand'));
+    el.addEventListener('mouseleave', () => cursor.classList.remove('expand'));
+  });
+
   const projects = [
     { tag: "Company", name: "Seismic Labs Website", desc: "Company site for Seismic Labs.", href: "https://github.com/0xNana/seismiclabs", cta: "Open ->" },
     { tag: "Product", name: "Al-Bannazir", desc: "Next.js app with custom components and static export.", href: "https://github.com/0xNana/al-bannazir", cta: "Open ->" },
