@@ -198,6 +198,30 @@
       height: 100%;
     }
 
+    .marquee-strip {
+      overflow: hidden;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      padding: 1rem 0;
+      background: var(--ink);
+    }
+    .marquee-track {
+      display: flex;
+      gap: 3rem;
+      white-space: nowrap;
+      animation: marquee 25s linear infinite;
+    }
+    .marquee-item {
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--white);
+      opacity: 0.65;
+      flex-shrink: 0;
+    }
+    .marquee-item b { color: var(--accent); font-weight: 400; opacity: 1; }
+
     section { padding: 7rem 4rem; }
 
     .section-label {
@@ -477,6 +501,10 @@
       from { opacity: 0; }
       to { opacity: 1; }
     }
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
 
     @keyframes spin-slow {
       from { transform: rotate(0deg); }
@@ -563,7 +591,34 @@
   </div>
 </section>
 
-<hr class="divider" />
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <span class="marquee-item"><b>Web Apps</b></span>
+    <span class="marquee-item">React</span>
+    <span class="marquee-item"><b>API Design</b></span>
+    <span class="marquee-item">Node.js</span>
+    <span class="marquee-item"><b>Mobile</b></span>
+    <span class="marquee-item">TypeScript</span>
+    <span class="marquee-item"><b>Full-Stack</b></span>
+    <span class="marquee-item">PostgreSQL</span>
+    <span class="marquee-item"><b>UI/UX</b></span>
+    <span class="marquee-item">Python</span>
+    <span class="marquee-item"><b>Automation</b></span>
+    <span class="marquee-item">Cloud Deploy</span>
+    <span class="marquee-item"><b>Web Apps</b></span>
+    <span class="marquee-item">React</span>
+    <span class="marquee-item"><b>API Design</b></span>
+    <span class="marquee-item">Node.js</span>
+    <span class="marquee-item"><b>Mobile</b></span>
+    <span class="marquee-item">TypeScript</span>
+    <span class="marquee-item"><b>Full-Stack</b></span>
+    <span class="marquee-item">PostgreSQL</span>
+    <span class="marquee-item"><b>UI/UX</b></span>
+    <span class="marquee-item">Python</span>
+    <span class="marquee-item"><b>Automation</b></span>
+    <span class="marquee-item">Cloud Deploy</span>
+  </div>
+</div>
 
 <section id="projects">
   <div class="reveal">
