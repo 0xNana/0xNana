@@ -18,7 +18,7 @@ CS student at SouthShore University College.
 
 - Frameworks: Next.js, React, Node.js, Foundry, Hardhat, FHEVM
 - Languages: TypeScript, JavaScript, Solidity, Rust, SQL
-- Tools: Docker, Git, PostgreSQL, Supabase, Vercel, Linux
+- Tools: Docker, Git, PostgreSQL, Supabase, Railway, Fly.io, Vercel, Netlify, Linux
 
 ## Links
 
