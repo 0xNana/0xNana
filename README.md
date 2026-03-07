@@ -14,6 +14,12 @@ Onchain builder focused on privacy-preserving systems, stablecoins, CLOBs, and P
 
 CS student at SouthShore University College.
 
+## Stack
+
+- Frameworks: Next.js, React, Node.js, Foundry, Hardhat, FHEVM
+- Languages: TypeScript, JavaScript, Solidity, Rust, SQL
+- Tools: Docker, Git, PostgreSQL, Supabase, Vercel, Linux
+
 ## Links
 
 - Personal: https://ghbuilder.dev
