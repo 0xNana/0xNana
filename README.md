@@ -1,4 +1,4 @@
-# Daries Doteth
+# Nana Yaw
 
 Founder, Seismic Labs.
 
