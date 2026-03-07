@@ -291,6 +291,43 @@
 
     .project-link:hover { opacity: 0.6; }
 
+    #process {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 5rem;
+      align-items: start;
+    }
+    .process-steps {
+      display: flex;
+      flex-direction: column;
+    }
+    .process-step {
+      display: grid;
+      grid-template-columns: 3rem 1fr;
+      gap: 1.5rem;
+      padding: 2rem 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .process-step:last-child { border-bottom: none; }
+    .step-n {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--accent);
+      letter-spacing: 0.1em;
+      padding-top: 0.2rem;
+    }
+    .step-content h3 {
+      font-family: var(--serif);
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .step-content p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.7;
+      font-weight: 300;
+    }
+
     #about {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -448,6 +485,9 @@
       opacity: 1;
       transform: translateY(0);
     }
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
 
     @media (max-width: 900px) {
       nav { padding: 1.2rem 2rem; }
@@ -456,7 +496,7 @@
       section { padding: 5rem 2rem; }
       hr.divider { margin: 0 2rem; }
       .projects-grid { grid-template-columns: 1fr; }
-      #about { grid-template-columns: 1fr; gap: 3rem; }
+      #about, #process { grid-template-columns: 1fr; gap: 3rem; }
       #contact { padding: 6rem 1.5rem; }
       .about-stat-row { gap: 2rem; }
     }
@@ -468,6 +508,7 @@
   <a href="#hero" class="nav-logo">gh<span>builder</span>.dev</a>
   <ul class="nav-links">
     <li><a href="#projects">Projects</a></li>
+    <li><a href="#process">Process</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
@@ -559,6 +600,46 @@
       <span class="skill-chip">TypeScript</span>
       <span class="skill-chip">Smart Contracts</span>
       <span class="skill-chip">Systems Engineering</span>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="reveal">
+    <p class="section-label">How it works</p>
+    <h2 class="section-title">From problem<br>to product.</h2>
+    <p class="section-intro" style="max-width:340px; margin-bottom: 0;">
+      A repeatable, pragmatic approach that keeps projects on track and quality high.
+    </p>
+  </div>
+  <div class="process-steps">
+    <div class="process-step reveal">
+      <span class="step-n">01</span>
+      <div class="step-content">
+        <h3>Understand the problem</h3>
+        <p>Before writing code, define what needs to be built and why it matters.</p>
+      </div>
+    </div>
+    <div class="process-step reveal reveal-delay-1">
+      <span class="step-n">02</span>
+      <div class="step-content">
+        <h3>Design the architecture</h3>
+        <p>Keep the system simple, extensible, and easy to maintain as it grows.</p>
+      </div>
+    </div>
+    <div class="process-step reveal reveal-delay-2">
+      <span class="step-n">03</span>
+      <div class="step-content">
+        <h3>Build iteratively</h3>
+        <p>Ship in focused cycles with clear milestones and fast feedback loops.</p>
+      </div>
+    </div>
+    <div class="process-step reveal reveal-delay-3">
+      <span class="step-n">04</span>
+      <div class="step-content">
+        <h3>Ship and improve</h3>
+        <p>Launch, measure outcomes, and keep improving based on real user behavior.</p>
+      </div>
     </div>
   </div>
 </section>
