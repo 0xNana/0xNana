@@ -2,9 +2,9 @@
 
 Founder, Seismic Labs.
 
-Previously at Composable Finance and Picasso Network, where I worked on blockchain interoperability across Ethereum, Polkadot, Solana, and Cosmos.
+Previously at Composable Finance and Picasso Network, where I worked on blockchain interoperability(IBC) across Ethereum, Polkadot, Solana, and Cosmos.
 
-Early Zama and Risechain contributor.
+zama and risechain contributor.
 
 Systems-focused engineer with deep ecosystem and crypto experience.
 
@@ -12,11 +12,10 @@ Solidity, Rust, and full-stack product execution across distributed systems, blo
 
 Onchain builder focused on privacy-preserving systems, stablecoins, CLOBs, and PayFi.
 
-CS student at SouthShore University College.
+CS student
 
 ## Stack
 
-### Logos
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
