@@ -1,4 +1,4 @@
-# Nana Yaw
+# ghbuilder
 
 Founder, Seismic Labs.
 
