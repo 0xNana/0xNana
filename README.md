@@ -8,7 +8,7 @@ zama and risechain contributor.
 
 Systems-focused engineer with deep ecosystem and crypto experience.
 
-Solidity, Rust, and full-stack product execution across distributed systems, blockchain infrastructure, and AI systems.
+Solidity, Junior C/C++ & Rust, and full-stack product execution across distributed systems, blockchain infrastructure, and AI systems.
 
 Onchain builder focused on privacy-preserving systems, stablecoins, CLOBs, and PayFi.
 
