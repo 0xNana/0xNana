@@ -33,9 +33,6 @@ and Picasso Network — grew community from 0 to 50k+ members.
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?logo=netlify&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 
-- Frameworks: [Next.js](https://nextjs.org), [React](https://react.dev), [Node.js](https://nodejs.org), [Foundry](https://book.getfoundry.sh), [Hardhat](https://hardhat.org), [FHEVM](https://docs.zama.ai/fhevm)
-- Languages: [TypeScript](https://www.typescriptlang.org), [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript), [Solidity](https://soliditylang.org), [Rust](https://www.rust-lang.org), [SQL](https://www.postgresql.org/docs/current/sql.html)
-- Tools: [Docker](https://www.docker.com), [Git](https://git-scm.com), [PostgreSQL](https://www.postgresql.org), [Supabase](https://supabase.com), [Railway](https://railway.com), [Fly.io](https://fly.io), [Vercel](https://vercel.com), [Netlify](https://www.netlify.com), [Linux](https://kernel.org)
 
 ## Links
 
