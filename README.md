@@ -1,18 +1,12 @@
 # ghbuilder.eth
 
-Founder, Seismic Labs.
+Systems-focused engineering student building blockchain infra and low-level systems.
 
-Previously at Composable Finance and Picasso Network, where I worked on blockchain interoperability(IBC) across Ethereum, Polkadot, Solana, and Cosmos.
+Contributor to Zama, Rise and exploring Perp dex & FHE-based applications.
 
-zama and risechain contributor.
+Building onchain systems with a focus on privacy-preserving applications, payments, and financial infra.
 
-Systems-focused engineer with deep ecosystem and crypto experience.
-
-Solidity, Junior C/C++ & Rust, and full-stack product execution across distributed systems, blockchain infrastructure, and AI systems.
-
-Onchain builder focused on privacy-preserving systems, stablecoins, CLOBs, and PayFi.
-
-CS student
+Working with Solidity, C/C++, Rust, and full-stack tools — shipping experiments across distributed systems and web3.
 
 ## Stack
 
