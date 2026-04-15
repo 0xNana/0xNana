@@ -8,7 +8,7 @@ Shipping:
 Zama Developer Program Contributor.
 RISE ecosystem contributor 
 
-Previously: community, Product and QA contributor at Composable
+Previously: community, product and QA contributor at Composable
 and Picasso Network — grew community from 0 to 50k+ members.
 
 
