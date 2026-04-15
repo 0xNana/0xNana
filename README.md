@@ -1,4 +1,4 @@
-# ghbuilder.eth
+# elegant.eth
 
 CS student @ Southshore, Accra. Independent builder.
 
