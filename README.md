@@ -40,8 +40,6 @@ and Picasso Network — grew community from 0 to 50k+ members.
 ## Links
 
 - Personal: https://ghbuilder.dev
-- Company: https://sl.ghbuilder.dev
 - GitHub: https://github.com/0xNana
 - Telegram: https://t.me/Elegant_CF
 - X: https://x.com/0xelegant
-- X: https://x.com/ghbuilda
