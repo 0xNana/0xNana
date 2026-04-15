@@ -1,12 +1,16 @@
 # ghbuilder.eth
 
-Systems-focused engineering student building blockchain infra and low-level systems.
+CS student @ Southshore, Accra. Independent builder.
 
-Contributor to Zama, Rise and exploring Perp dex & FHE-based applications.
+Shipping:
+- vecta.trade — mobile-first perps terminal for the Global South
 
-Building onchain systems with a focus on privacy-preserving applications, payments, and financial infra.
+Zama Developer Program Contributor.
+RISE ecosystem contributor 
 
-Working with Solidity, C/C++, Rust, and full-stack tools — shipping experiments across distributed systems and web3.
+Previously: community, Product and QA contributor at Composable
+and Picasso Network — grew community from 0 to 50k+ members.
+
 
 ## Stack
 
