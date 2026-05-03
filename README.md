@@ -4,11 +4,12 @@ CS student @ Southshore, Accra. Independent builder.
 
 Shipping:
 - vecta.trade — mobile-first perps terminal for the Global South
+-vecta-desk - on-ramp corridor for the Global South
 
-Zama & Rise ecosystem contributor 
+Defilla, Zama & Rise ecosystem contributor 
 
 Previously: community, product and QA contributor at Composable
-and Picasso Network — grew community from 0 to 50k+ members.
+and Picasso Network — grew community from 0 to 10k+ members.
 
 
 ## Stack
