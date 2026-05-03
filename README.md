@@ -4,7 +4,7 @@ CS student, Accra. Independent builder and FOSS contributor.
 
 Shipping:
 - vecta.trade — mobile-first perps terminal for the Global South
--vecta-desk - on-ramp corridor for the Global South
+- vecta-desk - on-ramp corridor for the Global South
 
 Defilla, Zama & Rise ecosystem contributor 
 
