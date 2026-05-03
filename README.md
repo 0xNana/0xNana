@@ -6,7 +6,7 @@ Shipping:
 - vecta.trade — mobile-first perps terminal for the Global South
 - vecta-desk —  on-ramp corridor for the Global South
 
-Defilla, Zama & Rise ecosystem contributor 
+Defillama, Zama & Rise ecosystem contributor 
 
 Previously: community, product and QA contributor at Composable
 and Picasso Network — grew community from 0 to 10k+ members.
