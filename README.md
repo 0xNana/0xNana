@@ -1,6 +1,6 @@
 # elegant.eth
 
-CS student @ Southshore, Accra. Independent builder.
+CS student, Accra. Independent builder and FOSS contributor.
 
 Shipping:
 - vecta.trade — mobile-first perps terminal for the Global South
