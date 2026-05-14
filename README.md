@@ -4,7 +4,7 @@ CS. Independent builder and FOSS contributor.
 
 Shipping:
 - vecta.trade — mobile-first perps terminal for the Global South
-- vecta-desk —  on-ramp corridor for the Global South
+- vectapay —  on-ramp corridor for the Global South
 
 Defillama, Zama & Rise ecosystem contributor 
 
