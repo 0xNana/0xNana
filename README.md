@@ -9,7 +9,7 @@ Shipping:
 Defillama, Zama & Rise ecosystem contributor 
 
 Previously: community, product and QA contributor at Composable
-and Picasso Network — grew community from 0 to 10k+ members.
+and Picasso Network — grew community from 0 to 50k+ members.
 
 
 ## Stack
